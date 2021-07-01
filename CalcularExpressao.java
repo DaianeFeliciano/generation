@@ -18,13 +18,13 @@ public class CalcularExpressao {
     public void leituraNumeros(Scanner leitor) {
 
         System.out.println("Digite o valor de a: ");
-        a = leitor.nextInt();
+        a = leitor.nextDouble();
 
         System.out.println("Digite o valor de b: ");
-        b = leitor.nextInt();
+        b = leitor.nextDouble();
 
         System.out.println("Digite o valor de c: ");
-        c = leitor.nextInt();
+        c = leitor.nextDouble();
 
 
     }
@@ -42,7 +42,7 @@ public class CalcularExpressao {
 
     public  void exibirResultado() {
 
-        System.out.println("O resultado é: " + d);
+        System.out.println("O resultado é: "  + String.format("= %.2f", d));
 
     }
 
