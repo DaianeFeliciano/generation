@@ -20,10 +20,10 @@ public class EquacaoLinear {
                 System.out.println("Valor de d: ");
                d =  leitor.nextDouble();
 
-                System.out.println("Valor de f: ");
+                System.out.println("Valor de e: ");
                e =  leitor.nextDouble();
 
-                System.out.println("Valor de g: ");
+                System.out.println("Valor de f: ");
                f =  leitor.nextDouble();
 
     }
