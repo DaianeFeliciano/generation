@@ -15,13 +15,13 @@ public class BoletimEscolar {
         public void leituraNotas(Scanner leitor) {
 
             System.out.println("Digite a primeira nota: ");
-            nota1 = leitor.nextInt();
+            nota1 = leitor.nextDouble();
 
             System.out.println("Digite a segunda nota: ");
-            nota2 = leitor.nextInt();
+            nota2 = leitor.nextDouble();
 
             System.out.println("Digite a terceira nota: ");
-            nota3 = leitor.nextInt();
+            nota3 = leitor.nextDouble();
 
 
 
@@ -36,7 +36,7 @@ public class BoletimEscolar {
 
     public  void  exibirResultados() {
 
-        System.out.println("A média ficou: " + media);
+        System.out.println("A média ficou: " + String.format("= %.2f", media));
 
 
 
