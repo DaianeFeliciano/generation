@@ -17,16 +17,16 @@ public class PontosPlano {
     public void leituraPontos(Scanner leitor) {
 
         System.out.println("Digite o valor de x do primeiro ponto: ");
-        x1 = leitor.nextInt();
+        x1 = leitor.nextDouble();
 
         System.out.println("Digite o valor de y do primeiro ponto: ");
-        y1 = leitor.nextInt();
+        y1 = leitor.nextDouble();
 
         System.out.println("Digite o valor de x do segundo ponto: ");
-        x2 = leitor.nextInt();
+        x2 = leitor.nextDouble();
 
         System.out.println("Digite o valor de y do segundo ponto: ");
-        y2 = leitor.nextInt();
+        y2 = leitor.nextDouble();
 
 
 
@@ -41,7 +41,7 @@ public class PontosPlano {
 
     public void exibir() {
 
-        System.out.println("A distância do P1 para o P2 é: " + d);
+        System.out.println("A distância do P1 para o P2 é: "  + String.format("= %.2f", d));
     }
 
     public static void main(String[] args) {
