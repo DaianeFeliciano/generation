@@ -1,2 +1,2 @@
 # Generation
-# Exercícios de Lógica em Java - Generation
+# Exercícios de Lógica em Java.
