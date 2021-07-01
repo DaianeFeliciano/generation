@@ -26,7 +26,7 @@ public class CustoConsumidor {
 
     public void exibirResultado() {
 
-        System.out.println("Custo do consumidor: " + custoConsumidor + " reais");
+        System.out.println("Custo do consumidor: " + String.format("= %.2f", custoConsumidor) + " reais");
 
 
     }
